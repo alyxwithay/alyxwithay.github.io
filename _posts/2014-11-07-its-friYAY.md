@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Title"
+title:  "It's FriYAY'"
 date:   2014-11-07 8:45:00
 comments: true
 ---
