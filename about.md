@@ -1,12 +1,17 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
-comments: true
+comments: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+###Hello, I'm Alyx.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<p>
+<img src="../img/moi.jpg" style="width: 600px;"/>
+</p>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+-I'm a Ph.D. candidate in the lab of Dr. Patrick Schloss at the University of Michigan, Department of Microbiology and Immunology. 
+-I study the microbiome's role in colonization resistance against *Clostridium difficile*. 
+-I'M ALMOST DONE WITH MY PHD! This gives me great joy. Thus I'm also looking for jobs :)
+-I'm interested in pursuing a career in science education and outreach with particular emphasis on advocating for women in STEM. 

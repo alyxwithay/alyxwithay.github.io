@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "It's FriYAY'"
+title:  "It's FriYAY"
 date:   2014-11-07 8:45:00
 comments: true
 ---
@@ -15,6 +15,6 @@ Goals and accomplishments for today.
 
 ### Accomplishments
 
-
+Give me a few hours yet.
 
 
