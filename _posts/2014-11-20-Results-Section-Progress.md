@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section Progress"
-date:   2014-11-10 10:54:00
+date:   2014-11-20 10:54:00
 comments: true
 ---
 
@@ -23,3 +23,7 @@ In particular, the R markdown file named "abxD01_analysis.Rmd" (or the pdf versi
 2. Discussion - 100% outline
 3. Materials & Methods - Add section on modeling techniques
 4. Using EndNote to make the references - going to need a refresher as well as make a new library with all my papers
+
+# R Markdown/Github repository for paper
+
+This is largely in tact.  The structure is all there and set up for each figure. I am making updates and committing them as I work on the paper.
