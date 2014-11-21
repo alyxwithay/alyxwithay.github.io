@@ -7,15 +7,14 @@ comments: true
 
 List of things working on for current paper tables and figures.
 
-# Github respository + R markdown file
+## Github respository + R markdown file
 Github repository for this paper is found [here](https://github.com/SchlossLab/abxD01). In particular, the R markdown file named "abxD01_analysis.Rmd" (or the pdf version) contains info on all figures and how they were generated.
 
-# Figures
+## Figures
 
-## Figure 1: Barchart, Differences in community structures following array of antibiotic treatments
+# Figure 1: Barchart, Differences in community structures following array of antibiotic treatments
 
-<img src="../img/topdose2_tx1_sorted_10x20.pdf" style="width: 400px;"/>
-
+[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
 
 - change the "0" to be min of 0.001 instead of 0.0001 relabund
     - **completed 11/20/14, just make sure future files are changed for other graphs using the "abxD01.barcharts.xOTU.test.r"**
@@ -25,18 +24,16 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - log trans anova to compare the CFUs across abx treatments to see if there are signif. differences
 
 
-## Figure 2: Stripchart, Correlation analysis of bacterial species present on Day 0 with *C. difficile* levels on Day 1
+# Figure 2: Stripchart, Correlation analysis of bacterial species present on Day 0 with *C. difficile* levels on Day 1
 
-<img src="../img/corr_allSig_topdose2_10x8.pdf" style="width: 400px;"/>
-
+[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%202)
 
 - Do I want to change the broad taxonomic groupings? 
     - These groups need to be the same across Figure 2, 4, 5
     
-## Figure 3: Barchart, Differences in community structures between abx-titration treated mice
+# Figure 3: Barchart, Differences in community structures between abx-titration treated mice
 
-<img src="../img/vanctitr_tx2_barchart_byphyl_8x10_v2.pdf" style="width: 400px;"/>
-
+[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
     -**11/20/14, completed most of the graphical parameters.**
@@ -51,10 +48,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - *Possibly work on merging singles*
 - *Possibly work on getting plots on top of grid lines*
 
-## Figure 4: Heatmap, Correlation analysis results compared across abx experiments
+# Figure 4: Heatmap, Correlation analysis results compared across abx experiments
 
-<img src="../img/corr_heatmap_0.01rel_topdose2_newtitr.pdf" style="width: 400px;"/>
-
+[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%204)
 
 - Add "ns" to the graph where not significant
 - Is this the order of drugs I want? -keep consistent
@@ -63,22 +59,21 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - change code to get the key back
 - same tax groups as figures 2 and 5
 
-## Figure 5: Barchart, Differences in the community with extra microbiome recovery time following abx treatment
+# Figure 5: Barchart, Differences in the community with extra microbiome recovery time following abx treatment
 
-<img src="../img/metro_d0s_tx2.pdf" style="width: 400px;"/>
-
+[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
 - Do for ampicillin too
 - Pick the same groups shown in Figure 2. AND as side heatmap figure 4
 
-## Figure 6: 
+# Figure 6: 
 
 - Make figure! for modelling results. Or a table??
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 - Consider rerunning the model building code using a bigger candidate list, and/or using higher level taxonomy!!!
 - Calculate the BIC for each--change code for this
 
-# Tables
+## Tables
 
 # Table 1: Description of antibiotics in first set of experiments. 
 
