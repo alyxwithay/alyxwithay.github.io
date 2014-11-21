@@ -7,7 +7,7 @@ comments: true
 
 List of things working on for current paper tables and figures.
 
-## Github respository + R markdown file
+## Github respository + R markdown file + Paper draft
 Github repository for this paper is found [here](https://github.com/SchlossLab/abxD01). In particular, the R markdown file named "abxD01_analysis.Rmd" (or the pdf version) contains info on all figures and how they were generated.
 
 ## Figures
@@ -36,7 +36,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
-    -**11/20/14, completed most of the graphical parameters.**
+	- **11/20/14, completed most of the graphical parameters.**
 - once code is working then put up the other titration data files
 - change min relabund from 0.0001 to 0.001 for cef and strep
     - **11/20/14, changed the vanc titrations min**
@@ -73,11 +73,27 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - Consider rerunning the model building code using a bigger candidate list, and/or using higher level taxonomy!!!
 - Calculate the BIC for each--change code for this
 
+
 ## Tables
+
+Tables are saved within the paper word document uploaded to github (see link at top).
 
 # Table 1: Description of antibiotics in first set of experiments. 
 
 - change the order of the abx
+	- **11/21/14**
 - make class/mechanism uniform throughout table
+	- **11/21/14**
 - add an administration route column
+	- **11/21/14**
+
+# Supplemental Table 1: Titration amounts for each antibiotic treatment.
+
+- change the order of the abx
+	- **11/21/14**
+- add an administration route column
+	- **11/21/14**
+	
+
+
 
