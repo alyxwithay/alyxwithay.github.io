@@ -69,9 +69,13 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 # Figure 6: 
 
 - Make figure! for modelling results. Or a table??
+- Consider rerunning model using higher level taxonomy!!!
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
-- Consider rerunning the model building code using a bigger candidate list, and/or using higher level taxonomy!!!
+	- **12/1/14, made file with info for table, now make pretty**
+- Consider rerunning the model building code using a bigger candidate list
+	- **12/1/14 with the BIC included in new calcs**
 - Calculate the BIC for each--change code for this
+	- **12/1/14**
 
 
 ## Tables
@@ -94,6 +98,8 @@ Tables are saved within the paper word document uploaded to github (see link at 
 - add an administration route column
 	- **11/21/14**
 	
+# Supplemental Table 2: Model OTU Selection Criteria
 
+- make pretty
 
 
