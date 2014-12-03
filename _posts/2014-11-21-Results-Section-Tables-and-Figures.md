@@ -69,6 +69,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 # Figure 6: 
 
 - Make figure! for modelling results. Or a table??
+	- Possibly show as supplemental table the ranked table of models by BIC or adjR^2
 - Consider rerunning model using higher level taxonomy!!!
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- **12/1/14, made file with info for table, now make pretty**
@@ -76,7 +77,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- **12/1/14 with the BIC included in new calcs**
 - Calculate the BIC for each--change code for this
 	- **12/1/14**
-
+	- **12/2/14, found a faster easier way to determine variable selection using the "leaps" package in r for multiple linear regression analysis**
+- using the best models from the leaps analysis predict the outcome for the newtitration data and the predicted r^2
 
 ## Tables
 
