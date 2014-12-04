@@ -79,6 +79,10 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- **12/1/14**
 	- **12/2/14, found a faster easier way to determine variable selection using the "leaps" package in r for multiple linear regression analysis**
 - using the best models from the leaps analysis predict the outcome for the newtitration data and the predicted r^2
+	- make file with newtitration data that contains the OTUs in the candidate list and run, got 0.67 for the 5 parameter model
+		- **12/4/14**
+	- now try the best model from both methods of selection...
+	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2
 
 ## Tables
 
