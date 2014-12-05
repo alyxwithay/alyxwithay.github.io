@@ -81,8 +81,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - using the best models from the leaps analysis predict the outcome for the newtitration data and the predicted r^2
 	- make file with newtitration data that contains the OTUs in the candidate list and run, got 0.67 for the 5 parameter model
 		- **12/4/14**
-	- now try the best model from both methods of selection...
-	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2
+	- now try the best model from both methods of selection...**12/4/14, think im just going to go with the exhaustive method for paper**
+	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2... **12/4/14, gives 0.67 too, but the anova between the 5parameter model and 3 parameter model is significantly different, meaning that the 5 parameter model does improve prediction overall**
 
 ## Tables
 
