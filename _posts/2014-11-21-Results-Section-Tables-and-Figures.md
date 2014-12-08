@@ -20,8 +20,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
     - **completed 11/20/14, just make sure future files are changed for other graphs using the "abxD01.barcharts.xOTU.test.r"**
 - add the 1/2 dashed lines
     - **completed 11/20/14**
-- also wanted to try to make this table in the other direction: Phyla/OTUs as each graph with different shadings or colors for each treatment... see Figure 3
 - log trans anova to compare the CFUs across abx treatments to see if there are signif. differences
+- individual anova to double check which abx treatments differ
 
 
 # Figure 2: Stripchart, Correlation analysis of bacterial species present on Day 0 with *C. difficile* levels on Day 1
@@ -52,12 +52,16 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%204)
 
-- Add "ns" to the graph where not significant
-- Is this the order of drugs I want? -keep consistent
 - for all the significant values for each pair of original + abx rows that are both significant, quantify that significance for each column (abx treatment)... see personal notes for more
-- change xlabel names
-- change code to get the key back
 - same tax groups as figures 2 and 5
+- Add "ns" to the graph where not significant
+	- **12/8/14**
+- Is this the order of drugs I want? -keep consistent
+	- **12/8/14**
+- change xlabel names
+	- **12/8/14**
+- change code to get the key back
+	- **12/8/14**
 
 # Figure 5: Barchart, Differences in the community with extra microbiome recovery time following abx treatment
 
@@ -84,11 +88,16 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- now try the best model from both methods of selection...**12/4/14, think im just going to go with the exhaustive method for paper**
 	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2... **12/4/14, gives 0.67 too, but the anova between the 5parameter model and 3 parameter model is significantly different, meaning that the 5 parameter model does improve prediction overall**
 
+#Supplemental Figure 1
+
+- make graph showing the inverse Simpson correlation plotted against *C. difficile* CFU
+
 ## Tables
 
 Tables are saved within the paper word document uploaded to github (see link at top).
 
 # Table 1: Description of antibiotics in first set of experiments. 
+There are probably other targets to include for a few abx. 
 
 - change the order of the abx
 	- **11/21/14**
