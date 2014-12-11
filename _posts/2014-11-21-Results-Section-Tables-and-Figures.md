@@ -74,7 +74,11 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 - Make figure! for modelling results. Or a table??
 	- Possibly show as supplemental table the ranked table of models by BIC or adjR^2
+-use random forest for delay data alone to see what features stand out
+	- how do these OTUs differ from the model built based on the original data set? 
+	- correlation calculations for the delay data	
 - Consider rerunning model using higher level taxonomy!!!
+
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- **12/1/14, made file with info for table, now make pretty**
 - Consider rerunning the model building code using a bigger candidate list
@@ -87,6 +91,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 		- **12/4/14**
 	- now try the best model from both methods of selection...**12/4/14, think im just going to go with the exhaustive method for paper**
 	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2... **12/4/14, gives 0.67 too, but the anova between the 5parameter model and 3 parameter model is significantly different, meaning that the 5 parameter model does improve prediction overall**
+
+
 
 #Supplemental Figure 1
 
