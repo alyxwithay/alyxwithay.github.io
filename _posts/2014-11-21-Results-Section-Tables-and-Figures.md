@@ -69,14 +69,14 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 - Do for ampicillin too
 - Pick the same groups shown in Figure 2. AND as side heatmap figure 4
+- calculate differences in thetayc between individual days w/recovery
+- lactos decrease with recovery... are these the streptococcus?
 
 # Figure 6: 
 
-- Make figure! for modelling results. Or a table??
+- Make figure! for modelling results
 	- Possibly show as supplemental table the ranked table of models by BIC or adjR^2
--use random forest for delay data alone to see what features stand out
-	- how do these OTUs differ from the model built based on the original data set? 
-	- correlation calculations for the delay data	
+- correlation calculations for the delay data	
 - Consider rerunning model using higher level taxonomy!!!
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
@@ -91,6 +91,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 		- **12/4/14**
 	- now try the best model from both methods of selection...**12/4/14, think im just going to go with the exhaustive method for paper**
 	- then model with just the top 3 otus... seems the best trade off point between BIC and adjR2... **12/4/14, gives 0.67 too, but the anova between the 5parameter model and 3 parameter model is significantly different, meaning that the 5 parameter model does improve prediction overall**
+-use random forest for delay data alone to see what features stand out
+	- how do these OTUs differ from the model built based on the original data set? 
+		- **12/17/14 OTU11 has most influence, followed by 1, 5, 23, 21, 3, 6, 39 before dropping off in %IncMSE.  I'm curious to see what inclusion of OTU11 (Ecoli) will have on the effect of the model.**
 
 
 
@@ -103,6 +106,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 Tables are saved within the paper word document uploaded to github (see link at top).
 
 # Table 1: Description of antibiotics in first set of experiments. 
+
 There are probably other targets to include for a few abx. 
 
 - change the order of the abx
