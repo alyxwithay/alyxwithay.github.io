@@ -4,7 +4,6 @@ title:  "Software Carpentry Workshop"
 date:   2015-1-09 10:45:00
 comments: true
 ---
-Notes from the Software Carpentry Workshop on Jan. 5-6 2015
  
 UMich WiSE Software Carpentry Workshop: intermediate room
 5-6 January 2015

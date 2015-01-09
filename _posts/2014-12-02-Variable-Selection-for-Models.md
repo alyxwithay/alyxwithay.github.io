@@ -6,6 +6,7 @@ comments: true
 ---
 Web resources for variable selection in linear models
  
+ 
 # Resources
 
 general steps for variable selection including stepwise AIC
