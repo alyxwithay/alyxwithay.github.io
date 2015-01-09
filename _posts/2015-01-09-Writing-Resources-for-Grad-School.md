@@ -7,6 +7,7 @@ comments: true
  
 List of resources online for writing, whether for a research article, grant, or for dissertation.
  
+
 # General Tips
 [12 Tips To Overcome Writer’s Block For PhD Students](http://www.nextscientist.com/writers-block-phd-students)
  

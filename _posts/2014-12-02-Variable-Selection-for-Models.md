@@ -4,6 +4,7 @@ title:  "Variable Selection for Models"
 date:   2014-12-02 10:45:00
 comments: true
 ---
+
 Web resources for variable selection in linear models.
 
 
