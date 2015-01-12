@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Carpentry Workshop"
-date:   2015-1-07 10:45:00
+date:   2015-01-07 10:45:00
 comments: true
 ---
  
