@@ -33,7 +33,9 @@ The points I especially liked from this article:
 [How to write your first Research Paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/pdf/yjbm_84_3_181.pdf) by Elena Kallestinova
 
 [Righting Writing](http://www.yale.edu/handelsmanlab/resources/Righting_Writing.pdf) by Jo Handelsman
- 
+
+[Me write pretty one day: how to write a good scientific paper](http://jcb.rupress.org/content/165/6/757.full.pdf+html) by William Wells
+*	I found this article succinct and extremely useful. 
  
 ## Writing a Grant
 
