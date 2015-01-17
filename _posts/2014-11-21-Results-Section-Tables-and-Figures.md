@@ -35,15 +35,17 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
-- I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
-	- **11/20/14, completed most of the graphical parameters.**
-- once code is working then put up the other titration data files
-- change min relabund from 0.0001 to 0.001 for cef and strep
-    - **11/20/14, changed the vanc titrations min**
 - eliminate the untreated groups...
 - use OTUs we picked out earlier in figure 1
 - one vs 3 figures for abx?
 - do the stats to compare the mid/low to the highest dose
+- I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
+	- **11/20/14, completed most of the graphical parameters.**
+- once code is working then put up the other titration data files
+	- **1/17/15, added to github**
+- change min relabund from 0.0001 to 0.001 for cef and strep
+    - **11/20/14, changed the vanc titrations min**
+    - **1/17/15, changed the cef and strep titrations min**
     
 - *Possibly work on merging singles*
 - *Possibly work on getting plots on top of grid lines*
