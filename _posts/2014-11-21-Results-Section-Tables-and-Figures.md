@@ -37,7 +37,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 - eliminate the untreated groups...
 - use OTUs we picked out earlier in figure 1
-- one vs 3 figures for abx?
 - do the stats to compare the mid/low to the highest dose
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- **11/20/14, completed most of the graphical parameters.**
