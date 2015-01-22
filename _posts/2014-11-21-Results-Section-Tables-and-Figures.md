@@ -45,9 +45,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
-**- eliminate the untreated groups...
-- use OTUs we picked out earlier in figure 1
-- do the stats to compare the mid/low to the highest dose**
+- **eliminate the untreated groups...**
+- **use OTUs we picked out earlier in figure 1**
+- **do the stats to compare the mid/low to the highest dose**
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- *11/20/14, completed most of the graphical parameters.*
@@ -64,9 +64,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%204)
 
-**- for all the significant values for each pair of original + abx rows that are both significant, quantify that significance for each column (abx treatment)... see personal notes for more
-- same tax groups as figures 2 and 5
-	- make for classification level family and genus**
+- **for all the significant values for each pair of original + abx rows that are both significant, quantify that significance for each column (abx treatment)... see personal notes for more**
+- **same tax groups as figures 2 and 5**
+	- **make for classification level family and genus**
 
 - Add "ns" to the graph where not significant
 	- *12/8/14*
@@ -81,17 +81,17 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
-**- Do for ampicillin too
-- Pick the same groups shown in Figure 2. AND as side heatmap figure 4
-	- make for classification level family and genus
-- calculate differences in thetayc between individual days w/recovery
-- lactos decrease with recovery... are these the streptococcus?**
+- **Do for ampicillin too**
+- **Pick the same groups shown in Figure 2. AND as side heatmap figure 4**
+	- **make for classification level family and genus**
+- **calculate differences in thetayc between individual days w/recovery**
+- **lactos decrease with recovery... are these the streptococcus?**
 
 # Figure 6: 
 
-**- Make figure! for modeling results
-	- Possibly show as supplemental table the ranked table of models by BIC or adjR^2
-- correlation calculations for the delay data**
+- **Make figure! for modeling results**
+	- **Possibly show as supplemental table the ranked table of models by BIC or adjR^2**
+- **correlation calculations for the delay data**
 
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
@@ -115,7 +115,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 #Supplemental Figure 1
 
-**- make graph showing the inverse Simpson correlation plotted against *C. difficile* CFU**
+- **make graph showing the inverse Simpson correlation plotted against *C. difficile* CFU**
 
 ## Tables
 
@@ -141,6 +141,6 @@ Tables are saved within the paper word document uploaded to github (see link at 
 	
 # Supplemental Table 2: Model OTU Selection Criteria
 
-**- make pretty**
+- **make pretty**
 
 
