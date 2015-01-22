@@ -17,8 +17,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
 
-**- update the graph on github to reflect new min and stats tests
-- currently shows genera phylotype tx1, do family too tx2**
+**- how to incorporate the statistical differences in structure on the graph? Summary of results in "amova8expgroups.xlsx". Need help with the letter naming scheme. 
+- color shade the bars by phylum**
 
 - change the "0" to be min of 0.001 instead of 0.0001 relabund
     - *completed 11/20/14, just make sure future files are changed for other graphs using the "abxD01.barcharts.xOTU.test.r"*
@@ -26,8 +26,11 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
     - *completed 11/20/14*
 - log trans anova to compare the CFUs across abx treatments to see if there are signif. differences
 	- *1/21/15*, without the untreated group included it is still significantly different, likely because of the ciprofloxacin
-- individual anova to double check which abx treatments differ
 	- *1/21/15*, removing the ciprofloxacin group and then doing the anova again showed no significant differences in CFU level among the remaining abx treatments
+- update the graph on github to reflect new min
+	- *1/22/15*
+- currently shows genera phylotype tx1, do family too tx2
+	- *1/22/15*, both up on github
 
 # Figure 2: Stripchart, Correlation analysis of bacterial species present on Day 0 with *C. difficile* levels on Day 1
 
