@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-21 10:54:00
+date:   2015-01-22 10:54:00
 comments: true
 ---
 
@@ -15,10 +15,12 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 # Figure 1: Barchart, Differences in community structures following array of antibiotic treatments
 
-[figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
+[figure PDFs here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
 
-**- how to incorporate the statistical differences in structure on the graph? Summary of results in "amova8expgroups.xlsx". Need help with the letter naming scheme. 
-- color shade the bars by phylum**
+**
+- how to incorporate the statistical differences in structure on the graph? Summary of results in "amova8expgroups.xlsx". Need help with the letter naming scheme. 
+- color shade the bars by phylum
+**
 
 - change the "0" to be min of 0.001 instead of 0.0001 relabund
     - *completed 11/20/14, just make sure future files are changed for other graphs using the "abxD01.barcharts.xOTU.test.r"*
