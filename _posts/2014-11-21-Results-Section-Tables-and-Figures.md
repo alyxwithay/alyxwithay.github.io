@@ -37,9 +37,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%202)
 
-**- Do I want to change the broad taxonomic groupings? 
-    - These groups need to be the same across Figure 2, 4, 5
-    	- make for classification level family and genus**
+- **Do I want to change the broad taxonomic groupings?**
+    - **These groups need to be the same across Figure 2, 4, 5**
+    	- **make for classification level family and genus**
     
 # Figure 3: Barchart, Differences in community structures between abx-titration treated mice
 

@@ -1,8 +1,8 @@
 # Site settings
-title: Alyx's awesome lab work
+title: Alyx's Lab Blogbook
 email: alyx@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Electronic lab notebook for Alyx Schubert in the lab of Pat Schloss. 
+  Blog + Lab notebook = Lab blogbook for Alyx Schubert, in the lab of Dr. Pat Schloss. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alyxwithay.github.io" # the base hostname & protocol for your site
 twitter_username: alyxschubert
