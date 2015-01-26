@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-22 10:54:00
+date:   2015-01-26 10:54:00
 comments: true
 ---
 
@@ -37,17 +37,19 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%202)
 
-- **Do I want to change the broad taxonomic groupings?**
-    - **These groups need to be the same across Figure 2, 4, 5**
-    	- **make for classification level family and genus**
+- graph is first filtered by 16min tot requirement, so at least one sample must have 16min sequences of that otu
+- then based on the avg abundance for each otu, if that otu wasn't greater than 0.001 relabund of the community in at least one of orig/cef/vanc/strep tit, then was eliminated
+- make for classification level family  
+	- *1/25/15, fixed graph by family, showed break down by phylum	
     
 # Figure 3: Barchart, Differences in community structures between abx-titration treated mice
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
-- **eliminate the untreated groups...**
-- **use OTUs we picked out earlier in figure 1**
-- **do the stats to compare the mid/low to the highest dose**
+
+- do the stats to compare the mid/low to the highest dose
+	- **need to know how to graph**
+- *Possibly work on merging singles*
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- *11/20/14, completed most of the graphical parameters.*
@@ -56,17 +58,20 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - change min relabund from 0.0001 to 0.001 for cef and strep
     - *11/20/14, changed the vanc titrations min*
     - *1/17/15, changed the cef and strep titrations min*
-    
-- *Possibly work on merging singles*
-- *Possibly work on getting plots on top of grid lines*
+- eliminate the untreated groups    
+	- *1/25/15*
+- Possibly work on getting plots on top of grid lines
+	- *1/25/15*	
+
 
 # Figure 4: Heatmap, Correlation analysis results compared across abx experiments
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%204)
 
 - **for all the significant values for each pair of original + abx rows that are both significant, quantify that significance for each column (abx treatment)... see personal notes for more**
-- **same tax groups as figures 2 and 5**
-	- **make for classification level family and genus**
+- **use classification names, possibly the genus if have it**
+- **figure out what want to use the side panel for? possibly highlight otus included in the model**
+- **think about adding a column for the random forest results somewhere**
 
 - Add "ns" to the graph where not significant
 	- *12/8/14*
@@ -81,18 +86,21 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
+- **family graph: get rid of OTU12, 14, 9
+- **use the barcharts by graph/sort by phylum side by side like did for titration data... show family differences.. possibly look at diffs between strong individual otus**
+- **stats for difference, wilcox for difference**
 - **Do for ampicillin too**
-- **Pick the same groups shown in Figure 2. AND as side heatmap figure 4**
-	- **make for classification level family and genus**
 - **calculate differences in thetayc between individual days w/recovery**
 - **lactos decrease with recovery... are these the streptococcus?**
+- random forest regression to do family level feature selection, use these to inform selected tx2's
+	- *1/26/15*
+
 
 # Figure 6: 
 
 - **Make figure! for modeling results**
-	- **Possibly show as supplemental table the ranked table of models by BIC or adjR^2**
 - **correlation calculations for the delay data**
-
+- **force OTU11 in the model in addition to the others to test the delay data and see if makes a diff, also look up the results for the 5model+OTU11**
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- *12/1/14, made file with info for table, now make pretty*
@@ -109,9 +117,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 -use random forest for delay data alone to see what features stand out
 	- how do these OTUs differ from the model built based on the original data set? 
 		- *12/17/14 OTU11 has most influence, followed by 1, 5, 23, 21, 3, 6, 39 before dropping off in %IncMSE.  I'm curious to see what inclusion of OTU11 (Ecoli) will have on the effect of the model.*
-
-- *Consider rerunning model using higher level taxonomy!!!*
-
 
 #Supplemental Figure 1
 
