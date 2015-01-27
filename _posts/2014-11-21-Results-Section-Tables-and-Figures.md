@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-26 10:54:00
+date:   2015-01-27 12:00:00
 comments: true
 ---
 
@@ -47,9 +47,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
 
-- do the stats to compare the mid/low to the highest dose
-	- **need to know how to graph**
-- *Possibly work on merging singles*
+- **work on merging singles**
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- *11/20/14, completed most of the graphical parameters.*
@@ -62,7 +60,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- *1/25/15*
 - Possibly work on getting plots on top of grid lines
 	- *1/25/15*	
-
+- do the stats to compare the mid/low to the highest dose
+	- need to know how to graph
+	- *1/27/15, used letter naming scheme*
 
 # Figure 4: Heatmap, Correlation analysis results compared across abx experiments
 
@@ -86,15 +86,18 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
-- **family graph: get rid of OTU12, 14, 9
-- **use the barcharts by graph/sort by phylum side by side like did for titration data... show family differences.. possibly look at diffs between strong individual otus**
+- **possibly look at diffs between strong individual otus or genera**
 - **stats for difference, wilcox for difference**
 - **Do for ampicillin too**
 - **calculate differences in thetayc between individual days w/recovery**
-- **lactos decrease with recovery... are these the streptococcus?**
+
 - random forest regression to do family level feature selection, use these to inform selected tx2's
 	- *1/26/15*
-
+- family graph: get rid of OTU12, 14, 9
+	- *1/26/15*
+- **lactos decrease with recovery... are these the streptococcus?** No
+- use the barcharts by graph/sort by phylum side by side like did for titration data... show family differences.. 
+	- *1/26/15*
 
 # Figure 6: 
 
