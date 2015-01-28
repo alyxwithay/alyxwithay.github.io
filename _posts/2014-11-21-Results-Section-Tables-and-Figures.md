@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-27 12:00:00
+date:   2015-01-28 12:00:00
 comments: true
 ---
 
@@ -40,7 +40,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - graph is first filtered by 16min tot requirement, so at least one sample must have 16min sequences of that otu
 - then based on the avg abundance for each otu, if that otu wasn't greater than 0.001 relabund of the community in at least one of orig/cef/vanc/strep tit, then was eliminated
 - make for classification level family  
-	- *1/25/15, fixed graph by family, showed break down by phylum	
+	- *1/25/15, fixed graph by family, showed break down by phylum*
     
 # Figure 3: Barchart, Differences in community structures between abx-titration treated mice
 
@@ -71,7 +71,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - **for all the significant values for each pair of original + abx rows that are both significant, quantify that significance for each column (abx treatment)... see personal notes for more**
 - **use classification names, possibly the genus if have it**
 - **figure out what want to use the side panel for? possibly highlight otus included in the model**
-- **think about adding a column for the random forest results somewhere**
 
 - Add "ns" to the graph where not significant
 	- *12/8/14*
@@ -104,6 +103,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - **Make figure! for modeling results**
 - **correlation calculations for the delay data**
 - **force OTU11 in the model in addition to the others to test the delay data and see if makes a diff, also look up the results for the 5model+OTU11**
+- **do leaps with all the filtered otus** 1/28/15, running
+	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations?
+	- try eliminating 283 from 5 model because is low in abundance, then see how performs
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- *12/1/14, made file with info for table, now make pretty*
