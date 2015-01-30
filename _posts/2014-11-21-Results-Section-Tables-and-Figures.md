@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-28 12:00:00
+date:   2015-01-29 12:00:00
 comments: true
 ---
 
@@ -86,7 +86,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
 - **possibly look at diffs between strong individual otus or genera**
-- **stats for difference, wilcox for difference**
 - **Do for ampicillin too**
 - **calculate differences in thetayc between individual days w/recovery**
 
@@ -97,15 +96,17 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - **lactos decrease with recovery... are these the streptococcus?** No
 - use the barcharts by graph/sort by phylum side by side like did for titration data... show family differences.. 
 	- *1/26/15*
+- stats for difference, wilcox for difference
+	- *1/28/15*
 
 # Figure 6: 
 
-- **Make figure! for modeling results**
+
 - **correlation calculations for the delay data**
 - **force OTU11 in the model in addition to the others to test the delay data and see if makes a diff, also look up the results for the 5model+OTU11**
 - **do leaps with all the filtered otus** 1/28/15, running
 	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations?
-	- try eliminating 283 from 5 model because is low in abundance, then see how performs
+	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- *12/1/14, made file with info for table, now make pretty*
@@ -122,6 +123,11 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 -use random forest for delay data alone to see what features stand out
 	- how do these OTUs differ from the model built based on the original data set? 
 		- *12/17/14 OTU11 has most influence, followed by 1, 5, 23, 21, 3, 6, 39 before dropping off in %IncMSE.  I'm curious to see what inclusion of OTU11 (Ecoli) will have on the effect of the model.*
+- Make figure! for modeling results, actual vs predicted, line? with error lines?
+	- *1/29/15*
+- try eliminating 283 from 5 model because is low in abundance, then see how performs
+	- *1/29/15*
+
 
 #Supplemental Figure 1
 
