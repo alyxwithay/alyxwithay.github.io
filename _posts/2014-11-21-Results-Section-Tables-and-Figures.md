@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results Section: Tables and Figures"
-date:   2015-01-29 12:00:00
+date:   2015-02-08 12:00:00
 comments: true
 ---
 
@@ -18,7 +18,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 [figure PDFs here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
 
 
-- **how to incorporate the statistical differences in structure on the graph? Summary of results in "amova8expgroups.xlsx". Need help with the letter naming scheme.**
 - **color shade the bars by phylum**
 
 - change the "0" to be min of 0.001 instead of 0.0001 relabund
@@ -101,11 +100,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 # Figure 6: 
 
+- I have been semi frustrated with the process. There's no one absolute way of building models and picking the right one. Trying out two different sets of guidelines -- using a curated or an uncurated pool of OTUs from which to build the best models. I may use the results of this to next use with either 2/3-1/3 train-test sets + validation, or without this step? See http://math.furman.edu/~dcs/courses/math47/R/library/DAAG/html/cv.lm.html  
 
-- **correlation calculations for the delay data**
-- **force OTU11 in the model in addition to the others to test the delay data and see if makes a diff, also look up the results for the 5model+OTU11**
-- **do leaps with all the filtered otus** 1/28/15, running
-	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations?
 	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
@@ -127,6 +123,13 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- *1/29/15*
 - try eliminating 283 from 5 model because is low in abundance, then see how performs
 	- *1/29/15*
+- correlation calculations for the delay data
+	- *done early february*
+- force OTU11 in the model in addition to the others to test the delay data and see if makes a diff, also look up the results for the 5model+OTU11
+	- *done early february*
+- do leaps with all the filtered otus, 1/28/15
+	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations
+
 
 
 #Supplemental Figure 1
