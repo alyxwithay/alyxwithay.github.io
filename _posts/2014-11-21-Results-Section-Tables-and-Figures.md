@@ -101,7 +101,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 # Figure 6: 
 
 - I have been semi frustrated with the process. There's no one absolute way of building models and picking the right one. Trying out two different sets of guidelines -- using a curated or an uncurated pool of OTUs from which to build the best models. I may use the results of this to next use with either 2/3-1/3 train-test sets + validation, or without this step? See http://math.furman.edu/~dcs/courses/math47/R/library/DAAG/html/cv.lm.html  
-
+- write up the results for the curated pool
+- 2/8/15 - waiting on results for the uncurated pool with all samples
+- write up results for the uncurated pool thus far
 	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
