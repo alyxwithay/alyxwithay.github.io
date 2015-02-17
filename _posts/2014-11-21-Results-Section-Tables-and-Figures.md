@@ -17,9 +17,6 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDFs here](https://github.com/SchlossLab/abxD01/tree/master/Figure%201)
 
-
-- **color shade the bars by phylum**
-
 - change the "0" to be min of 0.001 instead of 0.0001 relabund
     - *completed 11/20/14, just make sure future files are changed for other graphs using the "abxD01.barcharts.xOTU.test.r"*
 - add the 1/2 dashed lines
@@ -31,6 +28,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- *1/22/15*
 - currently shows genera phylotype tx1, do family too tx2
 	- *1/22/15*, both up on github
+- color shade the bars by phylum
+	- *2/15/15*
 
 # Figure 2: Stripchart, Correlation analysis of bacterial species present on Day 0 with *C. difficile* levels on Day 1
 
@@ -46,7 +45,14 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
 
-- **work on merging singles**
+- determine the tx's with statistical/interesting differences for each titabx, aggregate, use same for 3 paneled graph
+	- make forlogscale.csv that combines all three cef/strep/vanc data
+		- edit barchart function so that it takes the combo file and makes it paneled by the 3 abx groups
+	- make one common ids file
+	- **add possibly a right y axes with cdiff CFU, or make new trio graph alongside**
+	- **after use the combo file, make sure that there are sig diff in the add-on OTUs**
+	- **possibly color by phylum**
+	
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- *11/20/14, completed most of the graphical parameters.*
@@ -100,10 +106,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 # Figure 6: 
 
-- I have been semi frustrated with the process. There's no one absolute way of building models and picking the right one. Trying out two different sets of guidelines -- using a curated or an uncurated pool of OTUs from which to build the best models. I may use the results of this to next use with either 2/3-1/3 train-test sets + validation, or without this step? See http://math.furman.edu/~dcs/courses/math47/R/library/DAAG/html/cv.lm.html  
-- write up the results for the curated pool
-- 2/8/15 - waiting on results for the uncurated pool with all samples
-- write up results for the uncurated pool thus far
+- write up results for the uncurated pool using a 1% relabund cutoff
 	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
@@ -131,7 +134,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- *done early february*
 - do leaps with all the filtered otus, 1/28/15
 	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations
-
+- I have been semi frustrated with the process. There's no one absolute way of building models and picking the right one. Trying out two different sets of guidelines -- using a curated or an uncurated pool of OTUs from which to build the best models. I may use the results of this to next use with either 2/3-1/3 train-test sets + validation, or without this step? See http://math.furman.edu/~dcs/courses/math47/R/library/DAAG/html/cv.lm.html  
+- 2/8/15 - waiting on results for the uncurated pool with all samples... 2/14/15 canceling, I don't think it's working
 
 
 #Supplemental Figure 1
