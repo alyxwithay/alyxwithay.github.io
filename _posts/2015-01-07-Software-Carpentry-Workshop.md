@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "Software Carpentry Workshop"
+title:  "Software Carpentry Workshop Notes"
 date:   2015-01-07 10:45:00
 comments: true
 ---
  
-UMich WiSE Software Carpentry Workshop: intermediate room
-5-6 January 2015
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -21,7 +16,7 @@ UMich WiSE Software Carpentry Workshop: intermediate room
 />Link to workshop website:<br
 /><a href="http://danabauer.github.io/2015-01-05-wise-umich/">http://danabauer.github.io/2015-01-05-wise-umich/</a><br
 /><br
-/>**If students are having trouble install software on their machines, we have a Linux VM available. Scroll to the bottom of the page for installation instructions: <a href="http://danabauer.github.io/2015-01-05-wise-umich/">http://danabauer.github.io/2015-01-05-wise-umich/</a>**<br
+/>If students are having trouble install software on their machines, we have a Linux VM available. Scroll to the bottom of the page for installation instructions: <a href="http://danabauer.github.io/2015-01-05-wise-umich/">http://danabauer.github.io/2015-01-05-wise-umich/</a><br
 /><br
 /><u>Instructors</u><br
 />Dana Bauer<br
@@ -340,9 +335,8 @@ UMich WiSE Software Carpentry Workshop: intermediate room
 /><ul><li>Concept map: <a href="http://teaching.software-carpentry.org/2014/04/30/concept-map-for-regular-expressions/">http://teaching.software-carpentry.org/2014/04/30/concept-map-for-regular-expressions/</a> (you can see why I was wrong about the * -- this will be relevant in the shell)</li
 ><li>Online tool to test regexes, includes cheatsheet and examples: <a href="http://www.regexr.com/">http://www.regexr.com/</a>&nbsp;</li
 ><li>Software carpentry materials on regexes: <a href="http://software-carpentry.org/v4/regexp/index.html">http://software-carpentry.org/v4/regexp/index.html</a>&nbsp;</li
-><li><br/><br/><br
-/><br/><br
-/></li></ul
+><br/><br
+/><br/></ul
 ><b>Shell basics</b><br
 /><br
 />For apple users, you can find a comprehensive list of commands here: <a href="http://ss64.com/osx/">http://ss64.com/osx/</a><br
@@ -493,4 +487,3 @@ UMich WiSE Software Carpentry Workshop: intermediate room
 /><br
 /><br
 /></body>
-</html>
