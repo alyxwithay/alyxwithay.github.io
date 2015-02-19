@@ -106,8 +106,14 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 # Figure 6: 
 
-- write up results for the uncurated pool using a 1% relabund cutoff
-	
+- rewrite up modeling results
+- RF model built on delay data, tested on other data sets
+- which OTUs responsible for the difference in predictability of the 20 otu vs 1% rf models?
+
+
+- RF model on 20OTUs based on toptitdel: Tried 0.5% (82 OTUs), 1% (44OTUs), and no cutoff (299 OTUs). RF models based on 1% and toptitdel combined data sets poorly predict delay data set alone (r2=0.4). 0.5% however was able to predict in upper r2=0.9s. Took the top 20 OTUs from feature selection in a random forest model based on toptitdel and still predicted delay data with r2=0.92, which is WAY better than the 44 OTUs (1% cutoff). 
+- lm with the 20 OTUs using uncurated approach
+- RF models using 0.5% cutoff compared to 1% and 0 cutoff	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
 	- *12/1/14, made file with info for table, now make pretty*
