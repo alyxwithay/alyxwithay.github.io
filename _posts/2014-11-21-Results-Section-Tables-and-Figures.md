@@ -44,15 +44,7 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%203)
 
-
-- determine the tx's with statistical/interesting differences for each titabx, aggregate, use same for 3 paneled graph
-	- make forlogscale.csv that combines all three cef/strep/vanc data
-		- edit barchart function so that it takes the combo file and makes it paneled by the 3 abx groups
-	- make one common ids file
-	- **add possibly a right y axes with cdiff CFU, or make new trio graph alongside**
-	- **after use the combo file, make sure that there are sig diff in the add-on OTUs**
-	- **possibly color by phylum**
-	
+- **add possibly a right y axes with cdiff CFU, or make new trio graph alongside**
 
 - I want to change the graph so that the OTUs are their own graphs and the titrations are side by side
 	- *11/20/14, completed most of the graphical parameters.*
@@ -68,6 +60,12 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 - do the stats to compare the mid/low to the highest dose
 	- need to know how to graph
 	- *1/27/15, used letter naming scheme*
+- determine the tx's with statistical/interesting differences for each titabx, aggregate, use same for 3 paneled graph
+	- make forlogscale.csv that combines all three cef/strep/vanc data
+		- edit barchart function so that it takes the combo file and makes it paneled by the 3 abx groups
+	- make one common ids file
+	- after use the combo file, make sure that there are sig diff in the add-on OTUs	
+		- *2/22/15*
 
 # Figure 4: Heatmap, Correlation analysis results compared across abx experiments
 
@@ -90,6 +88,9 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 [figure PDF here](https://github.com/SchlossLab/abxD01/tree/master/Figure%205)
 
+- put metro/amp file together with all tx2 otus
+- pick subset of otus that important
+- run with divide=TRUE
 - **possibly look at diffs between strong individual otus or genera**
 - **Do for ampicillin too**
 - **calculate differences in thetayc between individual days w/recovery**
@@ -106,13 +107,13 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 
 # Figure 6: 
 
+- See how few otus i could use before the toptitdel drops off
+
 - rewrite up modeling results
 - RF model built on delay data, tested on other data sets
-- which OTUs responsible for the difference in predictability of the 20 otu vs 1% rf models?
 
 
 - RF model on 20OTUs based on toptitdel: Tried 0.5% (82 OTUs), 1% (44OTUs), and no cutoff (299 OTUs). RF models based on 1% and toptitdel combined data sets poorly predict delay data set alone (r2=0.4). 0.5% however was able to predict in upper r2=0.9s. Took the top 20 OTUs from feature selection in a random forest model based on toptitdel and still predicted delay data with r2=0.92, which is WAY better than the 44 OTUs (1% cutoff). 
-- lm with the 20 OTUs using uncurated approach
 - RF models using 0.5% cutoff compared to 1% and 0 cutoff	
 
 - The criteria for picking the otus, these results can be listed in supplementary tables possibly. 
@@ -142,7 +143,8 @@ Github repository for this paper is found [here](https://github.com/SchlossLab/a
 	- also rerunning with 50 OTUs, which were picked from after filtering again the abundance, doing the rf, recalculate correlations
 - I have been semi frustrated with the process. There's no one absolute way of building models and picking the right one. Trying out two different sets of guidelines -- using a curated or an uncurated pool of OTUs from which to build the best models. I may use the results of this to next use with either 2/3-1/3 train-test sets + validation, or without this step? See http://math.furman.edu/~dcs/courses/math47/R/library/DAAG/html/cv.lm.html  
 - 2/8/15 - waiting on results for the uncurated pool with all samples... 2/14/15 canceling, I don't think it's working
-
+- incorporate validation sets for all 3
+	- *2/22/15*
 
 #Supplemental Figure 1
 
