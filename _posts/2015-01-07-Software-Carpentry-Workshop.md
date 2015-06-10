@@ -5,8 +5,10 @@ date:   2015-01-07 10:45:00
 comments: true
 ---
  Notes from the Intermediate room at the workshop.
- 
- 
+ <br
+/>
+ <br
+/>
  
  
  
