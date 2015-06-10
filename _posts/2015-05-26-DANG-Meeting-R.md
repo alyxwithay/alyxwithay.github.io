@@ -4,6 +4,7 @@ title:  "DANG Meeting R"
 date:   2015-05-26 12:15:00
 comments: true
 ---
+Notes from the last DANG meeting.
 
 
 -phyloseq R package to load microbiome data into R from mothur output
@@ -23,7 +24,7 @@ comments: true
 	-broom package
 	-90% of the work sometimes is getting the data into one organized consistent form
 	
--?files tells you what files are there... look at the files help page
+-"?files" tells you what files are there... look at the files help page
 -in Rmd can have a chunk of code that is python/r/terminal code
 
 -ggplot2 vs base commands in R--visuals are cleaner perhaps, but difficult to learn how to use, although some people say the opposite
