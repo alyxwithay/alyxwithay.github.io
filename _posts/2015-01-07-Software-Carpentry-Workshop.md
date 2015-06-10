@@ -5,18 +5,15 @@ date:   2015-01-07 10:45:00
 comments: true
 ---
  Notes from the Intermediate room at the workshop.
- <br
-/>
- <br
-/>
- 
- 
- 
+
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
 <title>Software Carpentry Workshop</title>
 </head>
+
+
+
 <body><b>UMich WiSE Software Carpentry Workshop: intermediate room</b><br
 />5-6 January 2015<br
 /><br
