@@ -6,11 +6,7 @@ comments: true
 ---
  Notes from the Intermediate room at the workshop.
 
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="en-us" />
-<title>Software Carpentry Workshop</title>
-</head>
+
 
 
 
