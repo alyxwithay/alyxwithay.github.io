@@ -17,7 +17,7 @@ Criteria:
 The histogram below shows the frequency of samples by day. 
 
 
-```
+~~~~
 metadata <- read.table(file = "~/Documents/Schloss/Data/GF/GFmetadata.txt", 
     header = T, na.strings = "NA", stringsAsFactors = FALSE)
     
@@ -25,64 +25,64 @@ hist.info <- hist(metadata[metadata$sample_type == "stool" & metadata$cdiff_stra
     "431" & !is.na(metadata$day), "day"], breaks = c(seq(-1, 10)), xlab = "Day Sample Collected", 
     xaxt = "n", main = "Only stool and 431-strain infections")
 axis(side = 1, at = hist.info$mids, labels = seq(0, 10))
-```
+~~~~
 
 ![Histogram showing frequency of samples by day]({{ alyxwithay.github.io }}/img/toxin_assay-1.png)
 
-```
+~~~~
 # Number of groups with Day 1, 2, 3, 4, 7, 10 samples
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "1", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 22
-```
+~~~~
 
-```
+~~~~
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "2", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 21
-```
+~~~~
 
-```
+~~~~
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "3", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 17
-```
+~~~~
 
-```
+~~~~
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "4", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 15
-```
+~~~~
 
-```
+~~~~
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "7", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 15
-```
+~~~~
 
-```
+~~~~
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "10", "cage_id"]))
-```
+~~~~
 
-```
+~~~~
 ## [1] 15
-```
+~~~~
 
 Day 2 and 3 are common to many samples and are the ending points for several groups. These days should be processed. I'm considering additionally either doing day 4 OR doing a day towards the middle of 3-10, i.e. either 6 or 7. Depending on the total number of samples this brings me to, possibly days 4 and 7. 
 
