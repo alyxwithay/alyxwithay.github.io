@@ -17,18 +17,18 @@ Criteria:
 The histogram below shows the frequency of samples by day. 
 
 
-`r
+```r
 metadata <- read.table(file = "~/Documents/Schloss/Data/GF/GFmetadata.txt", 
     header = T, na.strings = "NA", stringsAsFactors = FALSE)
-
 # Histogram showing the frequency of stool samples for each day 0-10
 hist.info <- hist(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day), "day"], breaks = c(seq(-1, 10)), xlab = "Day Sample Collected", 
     xaxt = "n", main = "Only stool and 431-strain infections")
 axis(side = 1, at = hist.info$mids, labels = seq(0, 10))
-`
+```
 
 <img src="../figs/toxin_assay-1.png" title="" alt="" style="display: block; margin: auto;" />
+
 
 ```r
 # Number of groups with Day 1, 2, 3, 4, 7, 10 samples
