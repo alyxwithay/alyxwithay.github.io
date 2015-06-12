@@ -17,7 +17,7 @@ Criteria:
 The histogram below shows the frequency of samples by day. 
 
 
-```r
+```
 metadata <- read.table(file = "~/Documents/Schloss/Data/GF/GFmetadata.txt", 
     header = T, na.strings = "NA", stringsAsFactors = FALSE)
     
@@ -27,10 +27,9 @@ hist.info <- hist(metadata[metadata$sample_type == "stool" & metadata$cdiff_stra
 axis(side = 1, at = hist.info$mids, labels = seq(0, 10))
 ```
 
-<img src="../img/toxin_assay-1.png" title="" alt="" style="display: block; margin: auto;" />
+![Histogram showing frequency of samples by day]({{ alyxwithay.github.io }}/img/toxin_assay-1.png)
 
-
-```r
+```
 # Number of groups with Day 1, 2, 3, 4, 7, 10 samples
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "1", "cage_id"]))
@@ -40,7 +39,7 @@ length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain =
 ## [1] 22
 ```
 
-```r
+```
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "2", "cage_id"]))
 ```
@@ -49,7 +48,7 @@ length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain =
 ## [1] 21
 ```
 
-```r
+```
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "3", "cage_id"]))
 ```
@@ -58,7 +57,7 @@ length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain =
 ## [1] 17
 ```
 
-```r
+```
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "4", "cage_id"]))
 ```
@@ -67,7 +66,7 @@ length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain =
 ## [1] 15
 ```
 
-```r
+```
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "7", "cage_id"]))
 ```
@@ -76,7 +75,7 @@ length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain =
 ## [1] 15
 ```
 
-```r
+```
 length(unique(metadata[metadata$sample_type == "stool" & metadata$cdiff_strain == 
     "431" & !is.na(metadata$day) & metadata$day == "10", "cage_id"]))
 ```
