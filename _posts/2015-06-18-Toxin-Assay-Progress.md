@@ -8,6 +8,7 @@ comments: true
 Progress updates on the toxin assays for the "Human-derived gnotobiotic murine models of CDI". The paper title is a work in progress! _Original Post 6/18/15_
 
 ## Initial Round
+
 ### Background
 The initial round of toxin assays was performed last week Friday by Jhansi Leslie in Vince Young's lab. She used the vero cell rounding assay which has been previously used by their lab and others as a way of measuring toxin activity levels. She used the supernatant from the stool or cecal samples plated to quantify _C. difficile_ and sequenced to characterize the microbiota. The samples tested were from Day 2 post challenge, which was a day when many of the severely infected mice ended up dying. I expected high values of toxin activity on these days for these mice. 
 
