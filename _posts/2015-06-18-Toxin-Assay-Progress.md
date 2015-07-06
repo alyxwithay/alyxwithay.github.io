@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Toxin Assay Progress"
-date:   2015-06-18 12:15:00
+date:   2015-07-05 12:15:00
 comments: true
 ---
 
@@ -17,3 +17,11 @@ The initial round resulted in overall low or undetectable levels of toxin activi
 
 ### Future Directions
 Jhansi is testing biological replicates from Day 2 as well as new samples from Day 3, which also included samples from mice with severe infection that needed to be euthanized. This is happening 6/19/15. Instead of 1:10 dilutions of sample and/or pure toxin positive controls, she is using 1:5 dilutions, which hopefully will yield more refined results since our overall levels seem low. If it works well we will try it out with more samples. If not, then doing these assays for the remaining samples might be a waste of time/energy/resources.
+
+## Subsequent Rounds
+
+### Results
+Since the initial round, Jhansi has been using the 1:5 dilutions. They've yielded a better range for these samples. Jhansi also tried to repeat it for some samples from the initial round. From the first 80ish samples, Jhansi plotted the weight loss as a function of amount of toxin in sample and the plot roughly corresponded with what we would expect based on weight loss from baseline. Jhansi has since finished testing all available fecal (mostly, but some cecal) supernatant samples for toxin activity. We also had three other groups of mice which not only were challenged with 431 but also various other strains of spores with different physiological properties (see Paul Carlson's in vitro work). In total Jhansi tested 328 samples. These included days 1, 2, 3, 4, 7, and 10 for testing. Of the 328 samples, 4 were not sequenced: 2 cecal content samples, 1 mislabeled sample (needs to be checked), 1 _C. difficile_ contaminated sample that accidentally was included. 
+
+### Future Directions
+I'm getting the final results of the remaining samples 7/6/15, completed/counted in last few days. It's interesting that the spores I used for the germfree experiments, 431, were isolated from a patient with severe CDI, and yet in vitro it's been shown to have much lower toxin activity compared with VPI or even 630. I wonder what sort of complications this particular patient had that could have contributed to disease severity. 
