@@ -19,18 +19,21 @@ We are first looking to see how infection with one *C. difficile* strain, strain
 In many of the cages, Firmicutes tends to dominate. In those cages where overall Bacteroidetes dominate, these mice all received stool from a donor in the AA surrounding community. 
 
 Comparing the 3 AMS donor cages (N=no carey-blair storage media, NC=no carey-blair storage media or *C. difficile* challenge, Y=yes carey-blair storage media): 
+
 1. Both N and NC have similar starting communities at OTU level.
 2. Compared to N/NC, Y has less of OTU17: Clostridium XIVa. 
 3. Don't see an increase in the Y group of OTU 14: Flavonifractor
 4. Comparing N to NC, delay in increase of OTU59: butyricimonas and increase in OTU14: Flavonifractor
 
 Comparison of same donor into different cages. Are these starting communities the same? How do the microbiota dynamics differ in cages with same donor but different infecting strains?
+
 1. Cages 369 (431 spores) and CON2 (458 spores)
 2. Cages 430 (431 spores) and CON3 (299 spores)
 3. Cages 578 (431 spores) and CON (3?? spores)
 
 Comparing infection dynamics in 3 equivalent cages: donor DA00581 and 431 spores. Are the infection dynamics reproducible? 
-- Cages A, C, and D
+
+* Cages A, C, and D
 
 
 ### Discussion
@@ -44,8 +47,9 @@ I want to breakdown the Firmicutes phylum because many of those OTU graphs are b
 I also want to add the toxin graph to build_CageSummaries.R and include this data in random forest analysis. 
 
 Also:
-- make sure not showing cecum
-- change pch to vary
-- correlation analysis to find similar patterns across time between OTUs
-- akkermansia seems to typically be indirectly related to firmicutes (eg. NP1)--which ones specifically? Some lachno
-- generalized lotka-volterra equation
+
+* make sure not showing cecum
+* change pch to vary
+* correlation analysis to find similar patterns across time between OTUs
+* akkermansia seems to typically be indirectly related to firmicutes (eg. NP1)--which ones specifically? Some lachno
+* generalized lotka-volterra equation
