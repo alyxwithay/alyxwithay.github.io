@@ -29,7 +29,7 @@ Comparison of same donor into different cages. Are these starting communities th
 
 1. Cages 369 (431 spores) and CON2 (458 spores)
 2. Cages 430 (431 spores) and CON3 (299 spores)
-3. Cages 578 (431 spores) and CON (3?? spores)
+3. Cages 578 (431 spores) and CON (395 spores)
 
 Comparing infection dynamics in 3 equivalent cages: donor DA00581 and 431 spores. Are the infection dynamics reproducible? 
 
@@ -43,13 +43,11 @@ There are a lot of questions and comparisons still to be answered from these gra
 
 ### What's next
 
-I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy. 
-I also want to add the toxin graph to build_CageSummaries.R and include this data in random forest analysis. 
-
-Also:
-
-* make sure not showing cecum
-* change pch to vary
+* ~~I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy.~~ 
+* I also want to add the toxin graph to build_CageSummaries.R 
+* include toxin data in random forest analysis. 
+* ~~make sure not showing cecum~~
+* ~~change pch to vary~~
 * correlation analysis to find similar patterns across time between OTUs
 * akkermansia seems to typically be indirectly related to firmicutes (eg. NP1)--which ones specifically? Some lachno
 * generalized lotka-volterra equation
