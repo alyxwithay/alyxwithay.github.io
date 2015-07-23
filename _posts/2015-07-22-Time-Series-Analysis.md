@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Time Series Analysis"
-date:   2015-07-15
+date:   2015-07-22
 comments: true
 ---
 
