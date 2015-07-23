@@ -23,6 +23,7 @@ In this post I outline some methods for analyzing time-series multivariate data 
 * They choose to map the components to log-ratios, then model the log-ratios using multivariate normal or multivariate additive-logistic Student-t distributions
 
 [Compositional VARIMA time series](http://onlinelibrary.wiley.com/store/10.1002/9781119976462.ch7/asset/ch7.pdf?v=1&t=icf4irac&s=76e2d3498fd65a79d1d8ae0212fefa17152ab5dd)
+
 * Compositional time series: An application
 
 Aitchison J 1986 The Statistical Analysis of Compositional Data. Monographs on Statistics and Applied Probability. Chapman and Hall Ltd (reprinted 2003 with additional material by The Blackburn Press), London (UK). 416 p.
@@ -58,8 +59,21 @@ These models require less parameterization compared with ordinary differential e
 
 ## R features and packages
 
+# "Compositions"
+
 The ["compositions"](https://cran.r-project.org/web/packages/compositions/compositions.pdf) package in r seems to be the most obvious package for this type of analysis. It includes various methods of transforming the data. It references "amounts", meaning typically positive values that sum up to 100% or 1, which in our data refers to OTUs. This sum constraint affects covariance structure. 
+
+[2008 Paper associated with package.](http://www.sciencedirect.com/science/article/pii/S009830040700101X)
 
 This package includes 4 approaches based on 2 questions: "whether the total sum of the amounts is a relevant information, and which is the meaningful measure of difference of the data." In our case, the sum is irrelevant, leaving 2 options: 
 
-1. acomp (Aitchison  
+1. acomp (Aitchison composition) - "The meaningful difference is a relative one.  This class follows the original proposals of Aitchison."
+2. rcomp (Real composition) - "The difference in amount from 0% to 1% and from 10% to 11% is regarded as equal. This class represents the raw/naive treatment of compositions as elements of the real simplex based on an absolute geometry. This treatment is implicitly used in most amalgamation problems. However the whole approach suffers from the drawbacks and problems discussed in Chayes (1960) and Aitchison (1986)."
+
+# "robCompositions"
+
+The ["robCompositions"](http://www.statistik.tuwien.ac.at/public/filz/papers/2010CDAM2.pdf) package in r is for "exploratory" compositional data analysis (ECDA). 
+
+# Time-series resources list
+
+[CRAN Task View: Time Series Analysis](https://cran.r-project.org/web/views/TimeSeries.html) provides a list of potentially relevant tools in R for analyzing time series data. 
