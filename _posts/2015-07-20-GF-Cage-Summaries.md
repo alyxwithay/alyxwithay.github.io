@@ -43,7 +43,7 @@ There are a lot of questions and comparisons still to be answered from these gra
 
 ### What's next
 
-* ~~I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy.~~ 
+*  ~~I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy.~~ 
 * I also want to add the toxin graph to build_CageSummaries.R 
 * include toxin data in random forest analysis. 
 * ~~make sure not showing cecum~~
