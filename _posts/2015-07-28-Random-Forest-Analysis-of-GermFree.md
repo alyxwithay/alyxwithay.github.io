@@ -21,6 +21,7 @@ Want to predict:
 ### Plan
 
 Maybe a function to generally take the previous day and subsequent day's cdiff predictions
+
 * Inputs: 
 	* day of interest
 	* Predicted variable (cdiff, toxin levels, death)
@@ -29,9 +30,6 @@ Maybe a function to generally take the previous day and subsequent day's cdiff p
 
 I ran a full random forest model over all 10 days predicting level of cdiff colonization.  I need to rerun to eliminate the Cdiff OTU(s).
 ![Full Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_full.png?raw=true)
-
-![Full Random Forest]({{ SchlossLab/Schubert_humanCdGF_2015 }}/results/figures/rf_full.png)
-
 
 ### Links to GitHub issues/commit messages
 
