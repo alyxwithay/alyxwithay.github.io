@@ -43,11 +43,14 @@ There are a lot of questions and comparisons still to be answered from these gra
 
 ### What's next
 
-*  ~~I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy.~~ 
-* I also want to add the toxin graph to build_CageSummaries.R 
+*  ~~ I want to breakdown the Firmicutes phylum because many of those OTU graphs are busy. ~~ 
+* ~~ I also want to add the toxin graph to build_CageSummaries.R ~~
 * include toxin data in random forest analysis. 
-* ~~make sure not showing cecum~~
-* ~~change pch to vary~~
+* ~~ make sure not showing cecum ~~
+* ~~ change pch to vary ~~
+* Should the weight, toxin, and cdiff graphs in summary be build form the end_metadata, which is the overlap between what survived in the sequencing pipeline, or should it just be from the all_metadata? If change, then also make sure that the all_metadata used are just stool samples
+* change other scripts to look right away with the stool parameter for only positive days
+* Remove cdiff from RF analysis
 * correlation analysis to find similar patterns across time between OTUs
 * akkermansia seems to typically be indirectly related to firmicutes (eg. NP1)--which ones specifically? Some lachno
 * generalized lotka-volterra equation
