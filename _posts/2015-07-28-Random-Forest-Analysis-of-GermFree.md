@@ -11,6 +11,7 @@ I'm using random forest models to make predictions on the "humanized" germfree m
 ### Problem definition
 
 Want to predict: 
+
 * Day 1 cdifficile levels based on day 0 community
 * Level of toxin based on community
 * Community to predict death or not--try using just last day of each or include each day with its outcome of death or not
@@ -27,7 +28,9 @@ Maybe a function to generally take the previous day and subsequent day's cdiff p
 ### Results
 
 I ran a full random forest model over all 10 days predicting level of cdiff colonization.  I need to rerun to eliminate the Cdiff OTU(s).
-![Full Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_full.png)
+![Full Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_full.png?raw=true)
+
+![Full Random Forest]({{ SchlossLab/Schubert_humanCdGF_2015 }}/results/figures/rf_full.png)
 
 
 ### Links to GitHub issues/commit messages
