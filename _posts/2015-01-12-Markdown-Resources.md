@@ -13,3 +13,4 @@ A list of Markdown resources.
 
 [Markdown Syntax Cheat Sheet](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
 
+[Another Cheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
