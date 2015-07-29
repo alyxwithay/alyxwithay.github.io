@@ -36,11 +36,13 @@ OTU 110 Coriobacteriaceae is by far the most important OTU. Interestingly this O
 Blast results of top 5: 
 
 OTU_Name | Blast Name | Max Score | Total Score | Query Coverage | E value | Identity | Accession
+--- | --- | --- | --- | --- | --- | --- | ---
 OTU110_Coriobacteriaceae | Eggerthella lenta strain DSM 2243 | 383 | 383 | 100% | 2e-106 | 94% | NR_074377.1
 OTU42_Lachnospiraceae | Blautia obeum strain ATCC 29174 | 429 | 429 | 100% | 3e-120 | 97% | NR_118692.1
 OTU44_Clostridium | Clostridium subterminale strain JCM 1417, Clostridium thiosulfatireducens strain DSM 13105, Clostridium subterminale strain DSM 6970, Clostridium sulfidigenes strain SGB2, Clostridium thiosulfatireducens strain LUP 21, Clostridium subterminale strain DSM 6970 | 468 | 468 | 100% | 6e-132 | 100% | NR_113027.1, NR_112656.1, NR_112653.1, NR_044161.1, NR_042718.1, NR_041795.1
 OTU17_Clostridium_XlVa | [Clostridium] clostridioforme strain ATCC 25537, [Clostridium] bolteae strain JCM 12243, [Clostridium] bolteae strain 16351 | 468 | 468 | 100% | 6e-132 | 100% | NR_118128.1, NR_113410.1, NR_025567.1
 OTU5_Akkermansia | Akkermansia muciniphila strain ATCC BAA-835, Akkermansia muciniphila strain Muc | 468 | 468 | 100% | 6e-132 | 100% | NR_074436.1, NR_042817.1
+
 
 
 The partial plot including the top 12 OTUs only from the previous full model explained 59.2% of the variation. The relative importance among the top 12 also shifts a bit, placing greater importance on Enterococcus OTU2 levels:
