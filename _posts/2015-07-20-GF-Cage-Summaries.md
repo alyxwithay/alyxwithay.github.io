@@ -50,7 +50,10 @@ There are a lot of questions and comparisons still to be answered from these gra
 * <s> change pch to vary </s>
 * Should the weight, toxin, and cdiff graphs in summary be build form the end_metadata, which is the overlap between what survived in the sequencing pipeline, or should it just be from the all_metadata? If change, then also make sure that the all_metadata used are just stool samples
 * change other scripts to look right away with the stool parameter for only positive days
-* Remove cdiff from RF analysis
+* <s>Remove cdiff from RF analysis</s>
+* Double check when CONA day 0 samples were taken--was it stool the time of community inoculation or a few hours after, or was it the inoculum? This will affect whether include in RF and other analyses.
+	* I believe these samples were taken prior to inoculation. All the Day0's thetayc values from this cage are very similar to one another and very different from the subsequent days. Furthermore, in my emails to Sara Poe I told her to collect stool beforehand. 
+	* Still--maybe do a barchart to see the global changes over time
 * correlation analysis to find similar patterns across time between OTUs
 * akkermansia seems to typically be indirectly related to firmicutes (eg. NP1)--which ones specifically? Some lachno
 * generalized lotka-volterra equation
