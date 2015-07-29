@@ -33,7 +33,7 @@ I ran a full random forest model over all 10 days predicting level of cdiff colo
 
 OTU 110 Coriobacteriaceae is by far the most important OTU. Interestingly this OTU is only present at above 1% in the "NP1" group over time and a couple "NP2" days. This "NP1" group is one of the few groups with little to no cdiff colonization, which only happens late in the time course. 
 
-**Blast results of top 5: **
+*Blast results of top 5:*
 
 OTU_Name | Blast Name | Max Score | Total Score | Query Coverage | E value | Identity | Accession
 --- | --- | --- | --- | --- | --- | --- | ---
