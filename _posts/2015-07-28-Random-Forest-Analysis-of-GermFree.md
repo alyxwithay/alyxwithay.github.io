@@ -32,7 +32,7 @@ I ran a full random forest model over all 10 days predicting level of cdiff colo
 ![Full Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_full.png?raw=true)
 
 OTU 110 Coriobacteriaceae is by far the most important OTU. Interestingly this OTU is only present at above 1% in the "NP1" group over time and a couple "NP2" days. This "NP1" group is one of the few groups with little to no cdiff colonization, which only happens late in the time course. 
-<br>
+<br><br>
 
 **Blast results of top 5:**
 
@@ -46,8 +46,28 @@ OTU5_Akkermansia | Akkermansia muciniphila strain ATCC BAA-835, Akkermansia muci
 
 <br>
 
+When I break down the fit of this model by cage I get the following:
+![Full Random Forest Fit](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/alldays_fit_byCage.png?raw=true)
+
+<br>
+
 The partial plot including the top 12 OTUs only from the previous full model explained 59.2% of the variation. The relative importance among the top 12 also shifts a bit, placing greater importance on Enterococcus OTU2 levels:
-![Full Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_partial.png?raw=true)
+![Partial Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_partial.png?raw=true)
+
+<br>
+
+I also looked at a model from just Day 0. This model explained only 39.6% of the variation in the data. Interestingly, there are several Clostridium XIVa OTUs that were important in this model. Clostridium XIVa includes many butyrate producing bacteria which _in vitro_ have close association with the mucus layer. 
+![Day 0 Random Forest](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/rf_day0.png?raw=true)
+
+<br>
+
+When I break down the fit of this model by cage I get the following: 
+![Day 0 Random Forest Fit](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/day0_fit_byCage.png?raw=true)
+
+<br>
+
+The binary model (yes/no colonization) for Day 0 to Day 1 is not that great. The OOB is 14.52%, which is pretty good. However, while it accurately classifies all true yes samples, the non-colonized (less than 10^2 CFU/g feces) samples were miss classifed 90% of the time. There were only 10 "no" samples, so the n is pretty small. 
+![Day 0 Random Forest Classification](https://github.com/SchlossLab/Schubert_humanCdGF_2015/blob/master/results/figures/binary_modelD0.png?raw=true)
 
 
 ### Links to GitHub issues/commit messages
@@ -60,5 +80,5 @@ The partial plot including the top 12 OTUs only from the previous full model exp
 * <s>Remove cdiff OTU 8</s>
 * incorporate other variables into the model, such as toxin activity for cdiff levels
 * <s>only look at cdiff 431!!</s>
-* Make function to pick days included
+* <s>Make function to pick days included</s>
 * <s>Blast the top 4 OTUs in full RF model</s>
